@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Sora", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+
+.card {
+    padding: 16px;
+    width: 368px;
+    background-color: #fafaf9;
+    border-radius: 12px;
+    box-shadow: 0px 30px 100px rgba(17, 23, 41, 0.15);
+}
+
+.card-image {
+    width: 336px;
+    height: 152px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto 16px;
+}
+
+.card-content {
+    text-align: left;
+}
+
+.pill {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    background-color: #e6d6fc;
+    color: #8c41e2;
+    padding: 4px 16px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+
+h2 {
+    font-size: 1.25rem;
+    margin: 3px 0 6px;
+    color: #000;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #92969e;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.card-footer {
+    font-size: 12px;
+    border-top: 1px solid #dee5f3;
+    padding-top: 20px;
+    margin: 0 -16px;
+}
+
+.card-footer p {
+    margin-left: 16px;
+    color: #92969e;
+    font-weight: 500;
+}
